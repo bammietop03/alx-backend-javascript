@@ -11,6 +11,5 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
         return { status: result.status, value: result.value };
       }
       return { status: result.status, value: result.reason };
-    }))
-    .catch((error) => [{ status: 'rejected', value: error }]);
+    }));
 }
