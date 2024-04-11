@@ -6,7 +6,7 @@ export default class Pricing {
   }
 
   get amount() {
-    return `${this._amount}`;
+    return this._amount;
   }
 
   set amount(value) {
@@ -14,7 +14,7 @@ export default class Pricing {
   }
 
   get currency() {
-    return `${this._currency}`;
+    return this._currency;
   }
 
   set currency(value) {
